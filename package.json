@@ -1,7 +1,7 @@
 {
   "name": "mypwa",
   "version": "1.0.0",
-  "description": "",
+  "description": "Progressive Web App project for Year 12 Software Engineering.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 body {
-  background: #000000;
+  background: #7c7c7c;
   font-family: "Nunito", sans-serif;
   font-size: 1rem;
 }
@@ -23,7 +23,7 @@ nav {
     align-items: center;
 }
 nav img {
-    height:100px;
+    height:150px;
 }
 nav ul {
     list-style: none;
@@ -35,14 +35,32 @@ nav li {
 nav ul li a {
     text-decoration-line:none;
     text-transform: uppercase; 
-    color: #393b45;
+    color: #ffffff;
   }
 nav ul li a:hover {
-    color: #14E6DD;
+    color: #cb7e7eff;
 }
 nav h1 {
-    color: #106D69;
+    color: #ffffff;
     margin-bottom: 0.5rem;
+}
+h2 {
+    color: #ffffff;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+p {
+    color: #FFFFFF;
+    margin-bottom: 2rem;
+    text-align: left;
+} 
+.container box img {
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    margin-bottom: 2rem;
 }
 
 
@@ -54,6 +72,7 @@ nav h1 {
   align-items: center;
   margin: auto;
   padding: 1rem 0;
+  color: #fff;
   }
 .card {
   display: flex;

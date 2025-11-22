@@ -4,14 +4,16 @@ const app = express();
 
 const sqlite3 = require("sqlite3").verbose();
 
-const db = new sqlite3.Database('datasource.db', (err) => { 
+
+const db_path = path.join(__dirname, 'datasource.db');
+const db = new sqlite3.Database(db_path, (err) => { 
   if (err) { 
     console.error('not connected', err); }
   else { 
     console.log('connected') }});
+
   
 app.use(express.static(path.join(__dirname, "public")));
-
 
 
 app.get("/", function (req, res) {

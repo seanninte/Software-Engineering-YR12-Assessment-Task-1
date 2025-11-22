@@ -57,6 +57,7 @@ p {
 
 .music-container {
   margin-top: 2rem;
+  display: flex;
 }
 
 .container {

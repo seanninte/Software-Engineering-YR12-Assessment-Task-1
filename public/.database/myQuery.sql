@@ -1,4 +1,4 @@
---CREATE TABLE music(ID INTEGER NOT NULL PRIMARY KEY, title TEXT NOT NULL, artist TEXT NOT NULL, album TEXT NOT NULL, image BLOB NOT NULL, genre TEXT NOT NULL);
+--CREATE TABLE music(ID INTEGER NOT NULL PRIMARY KEY, title TEXT NOT NULL, artist TEXT NOT NULL, album TEXT NOT NULL, image TEXT NOT NULL, genre TEXT NOT NULL);
 INSERT INTO music (ID, title, artist, album, image, genre) VALUES (0,'Billie Jean', 'Michael Jackson', 'Thriller', '/images/thriller.png', 'Pop');
 INSERT INTO music (ID, title, artist, album, image, genre) VALUES (1, 'Cant Stop ', 'Red Hot Chilli Peppers', 'By The Way', '/images/rhcp.png', 'Rock');
 INSERT INTO music (ID, title, artist, album, image, genre) VALUES (2, 'Bohemian Rhapsody', 'Queen', 'A Night At The Opera', '/images/opera.png', 'Pop');

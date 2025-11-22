@@ -82,6 +82,21 @@ p {
   color: black;
 }
 
+.music-container {
+  margin-top: 2rem;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.box {
+  background: #000000;
+  text-align: center;
+}
 
 .container {
   display: grid;

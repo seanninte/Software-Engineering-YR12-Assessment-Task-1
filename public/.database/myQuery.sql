@@ -1,2 +1,11 @@
---CREATE TABLE music(ID INTEGER NOT NULL PRIMARY KEY,title TEXT NOT NULL, artist TEXT NOT NULL,album TEXT NOT NULL,image BLOB NOT NULL,genre TEXT NOT NULL);
+--CREATE TABLE music(ID INTEGER NOT NULL PRIMARY KEY, title TEXT NOT NULL, artist TEXT NOT NULL, album TEXT NOT NULL, image BLOB NOT NULL, genre TEXT NOT NULL);
+INSERT INTO music (ID, title, artist, album, image, genre) VALUES (0,'Billie Jean', 'Michael Jackson', 'Thriller', '/images/thriller.png', 'Pop');
+INSERT INTO music (ID, title, artist, album, image, genre) VALUES (1, 'Cant Stop ', 'Red Hot Chilli Peppers', 'By The Way', '/images/rhcp.png', 'Rock');
+INSERT INTO music (ID, title, artist, album, image, genre) VALUES (2, 'Bohemian Rhapsody', 'Queen', 'A Night At The Opera', '/images/opera.png', 'Pop');
+INSERT INTO music (ID, title, artist, album, image, genre) VALUES (3, 'Breathe', 'Pink Floyd', 'The Dark Side Of The Moon', '/images/moon.png', 'Rock');
+INSERT INTO music (ID, title, artist, album, image, genre) VALUES (4, 'Smells Like Teen Spirit', 'Nirvana', 'Nevermind', '/images/nevermind.png', 'Rock');
+INSERT INTO music (ID, title, artist, album, image, genre) VALUES (5, 'Blinding Lights', 'The Weeknd', 'After Hours', '/images/weeknd.png', 'Pop');
+INSERT INTO music (ID, title, artist, album, image, genre) VALUES (6, 'Even Flow', 'Pearl Jam', 'Ten', '/images/ten.png', 'Rock');
+INSERT INTO music (ID, title, artist, album, image, genre) VALUES (7, 'Bold As Love', 'Jimi Hendrix', 'Axis: Bold As Love', '/images/jimi.png', 'Rock');
+INSERT INTO music (ID, title, artist, album, image, genre) VALUES (8, 'Watermelon Sugar', 'Harry Styles', 'Fine Line', '/images/harry.png', 'Pop');
 SELECT * FROM music;

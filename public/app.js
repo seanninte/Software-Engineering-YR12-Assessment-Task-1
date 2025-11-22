@@ -43,3 +43,4 @@ function clearSearch() {
   document.getElementById('search').value = '';
   displayMusic(allMusic);
 }
+

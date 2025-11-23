@@ -16,9 +16,7 @@
         <img src="images/logo.png"/>
         <h1> </h1>
         <ul class="topnav">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="Search.html">Search</a></li>
-          <li><a href="Filter.html">Filter</a></li>
+          <li><a href="index.html"> SEARCH AND FILTER </a></li>
         </ul>
       </nav>
 
@@ -28,28 +26,37 @@
           <p> Search and Filter your favourite songs!</p>  
       </div>
      
-      </div>
+      
+
       <div class="container">
         <div class="box">
-          <h2> Popular Albums </h2>  
-      <section class="highlights container">
-        <div class="card">
-          <img class="card-image" src="images/thriller.png" alt="album 1" />
-          <div class="card-name">Thriller</div>
+      </div>
+      </div>
+    </main>
+    <div class="container">
+        <div id="search-box" class="search-box">
+          <h2> Search For Tracks </h2> 
+          <input type="text" id="search" placeholder="Search by title">
+          <button onclick="searchTitle()"> Search </button>
+          <button onclick ="clearSearch()"> Clear </button>
         </div>
-
-        <div class="card">
-          <img class="card-image" src="images/abbey.jpg" alt="album 2" />
-          <div class="card-name">Abbey Road</div>
-        </div>
-
-        <div class="card">
-          <img class="card-image" src="images/TDSOTM.jpg" alt="a 3" />
-          <div class="card-name">The Dark Side of the Moon</div>
+        <div id="filter-box" class="filter-box"> 
+          <h2> Filter By Genre </h2> 
+          <button onclick=" clearSearch()"> All </button>
+          <button onclick=" pop()"> Pop </button>
+          <button onclick=" rock()"> Rock </button>
+          <button onclick=" hip_hop()"> Hip Hop </button>
+          <button onclick=" rnb()"> R&B </button>
+          
+         </div> 
+      </div>
+      <div id="music-container" class="container"></div>
+            <script src="app.js"></script>
       
+        </body>
         </div>
       </section>
     </main>
-    <script src="js/app.js"></script>
+
   </body>
 </html>

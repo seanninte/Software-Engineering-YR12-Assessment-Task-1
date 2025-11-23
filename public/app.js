@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
   fetch("/api/music") // Gets music data from datasource.db
     .then(res => res.json()) // Converts music data into a json file
     .then(data => {
-        allMusic = data; // Sets  variable for music data allowing it to be used for other functions
+        allMusic = data.music; // Sets  variable for music data allowing it to be used for other functions
         displayMusic(allMusic);
     })
 });
